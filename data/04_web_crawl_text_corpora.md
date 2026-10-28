@@ -48,7 +48,7 @@ This section covers large-scale text collections, web crawl datasets, and genera
 
 ### Indonesian CommonCrawl News
 - **Description**: Processed CommonCrawl News filtered for Indonesian
-- **Links**: Download (dead link, Oct 2026)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/SEACrowd/kopi_cc_news)
 
 ### Twitter Collections
 - **Twitter Puisi**: 80K+ poems from [@PelangiPuisi](https://twitter.com/PelangiPuisi)

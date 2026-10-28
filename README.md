@@ -323,7 +323,7 @@ Comprehensive collection of datasets for various NLP tasks:
 **Indonesian CommonCrawl News**
 
 - **Description**: Processed CommonCrawl News filtered for Indonesian
-- **Links**: Download (dead link, Oct 2026)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/SEACrowd/kopi_cc_news)
 
 **Twitter Collections**
 
@@ -692,7 +692,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: ~770k article and summary pairs in 18 languages from WikiHow
 - **Categories**: 17 languages
 - **Features**: Gold-standard article-summary alignments across languages
-- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | Data Download (dead link, Oct 2026)
+- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [HuggingFace](https://huggingface.co/datasets/SEACrowd/wikilingua)
 
 
 #### Translated Summarization Datasets

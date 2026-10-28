@@ -51,7 +51,7 @@ This section covers datasets for both abstractive and extractive text summarizat
 - **Description**: Cross-lingual summarization dataset from WikiHow
 - **Size**: ~770K article-summary pairs across 18 languages
 - **Features**: Gold-standard article-summary alignments across languages
-- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | Data Download (dead link, Oct 2026)
+- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [HuggingFace](https://huggingface.co/datasets/SEACrowd/wikilingua)
 
 ## Social Media and Web Content
 
