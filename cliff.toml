@@ -1,0 +1,51 @@
+# git-cliff configuration — https://git-cliff.org/docs/configuration
+# Regenerate the changelog with: git cliff --tag vX.Y.Z -o CHANGELOG.md --unreleased
+
+[changelog]
+header = """
+# Changelog
+
+Release notes for indonesian-llm-datasets, generated from conventional commits.
+"""
+body = """
+{% if version %}\
+## [{{ version | trim_start_matches(pat="v") }}] — {{ timestamp | date(format="%Y-%m-%d") }}
+{% else %}\
+## [unreleased]
+{% endif %}\
+{% for group, commits in commits | group_by(attribute="group") %}
+### {{ group }}
+{% for commit in commits %}\
+- {% if commit.breaking %}**breaking** — {% endif %}{{ commit.message | split(pat="\n") | first | trim | upper_first }} ([`{{ commit.id | truncate(length=7, end="") }}`](https://github.com/{{ remote.github.owner }}/{{ remote.github.repo }}/commit/{{ commit.id }}))
+{% endfor %}
+{% endfor %}
+
+"""
+footer = ""
+trim = true
+render_always = false
+
+[git]
+conventional_commits = true
+filter_unconventional = true
+split_commits = false
+protect_breaking_commits = false
+filter_commits = false
+tag_pattern = "v[0-9]*"
+sort_commits = "oldest"
+commit_parsers = [
+    { message = "^feat", group = "Added" },
+    { message = "^fix", group = "Fixed" },
+    { message = "^docs", group = "Documentation" },
+    { message = "^ci", group = "Automation" },
+    { message = "^refactor", group = "Changed" },
+    { message = "^perf", group = "Performance" },
+    { message = "^test", group = "Testing" },
+    { message = "^chore\\(release\\)", skip = true },
+    { message = "^chore", group = "Miscellaneous" },
+    { message = "^style", group = "Miscellaneous" },
+]
+
+[remote.github]
+owner = "h0c0de"
+repo = "indonesian-llm-datasets"
