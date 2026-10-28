@@ -1,124 +1,69 @@
-# 🇮🇩 Awesome Indonesian LLM Dataset
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Indonesian LLM Datasets
 
-A curated collection of high-quality Indonesian datasets for training Large Language Models (LLMs), Vision-Language Models (VLMs), and multimodal AI systems. This repository serves as a comprehensive resource for researchers and practitioners working on Indonesian natural language processing and AI.
+A catalogue of Indonesian-language datasets for training and evaluating language and multimodal models: Bahasa Indonesia plus the low-resource local languages (Acehnese, Balinese, Banjarese, Buginese, Javanese, Madurese, Minangkabau, Ngaju, Sundanese, Toba Batak).
 
-You can visit the web version of this repository at this [link](https://irfanfadhullah.github.io/awesome-indonesian-llm-dataset/)
+Maintained derivative of [irfanfadhullah/awesome-indonesian-llm-dataset](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset). Provenance and licensing are documented in [ATTRIBUTION.md](ATTRIBUTION.md).
 
-## 📋 Table of Contents
+| | |
+| --- | --- |
+| Categories | 14 task-oriented files under [`data/`](data/) |
+| Link targets | 261 unique URLs |
+| Dead links | 0, as of the 2026-10-28 audit |
+| Languages | Indonesian and 10 local languages |
+| Source of truth | Markdown only; nothing is generated |
 
-- [🎯 Overview](#-overview)
-- [📋 TODO](#-todo)
-- [📊 Dataset Categories](#-dataset-categories)\
-  📄 [Go to overview file](data/00_dataset_categories.md)
-    - [🧠 Natural Language Understanding](#-natural-language-understanding)\
-      📄 [Go to detailed file](data/01_natural_language_understanding.md)
-    - [🔡 Token Classification](#-token-classification)\
-      📄 [Go to detailed file](data/02_token_classification.md)
-    - [📚 Knowledge Graphs](#-knowledge-graphs)\
-      📄 [Go to detailed file](data/03_knowledge_graphs.md)
-    - [🌐 Web Crawl \& Text Corpora](#-web-crawl--text-corpora)\
-      📄 [Go to detailed file](data/04_web_crawl_text_corpora.md)
-    - [🗣️ Local Languages](#️-local-languages)\
-      📄 [Go to detailed file](data/05_local_languages.md)
-    - [🖼️ Multimodal \& Vision-Language](#️-multimodal--vision-language)
-    - 📄 [Go to detailed file](data/06_multimodal_vision_language.md)
-    - [🔄 Paraphrase \& Text Similarity](#-paraphrase--text-similarity)\
-      📄 [Go to detailed file](data/07_paraphrase_text_similarity.md)
-    - [❓ Question Answering](#-question-answering)\
-      📄 [Go to detailed file](data/08_question_answering.md)
-    - [🎙️ Speech \& Audio](#️-speech--audio)\
-      📄 [Go to detailed file](data/09_speech_audio.md)
-    - [📝 Text Summarization](#-text-summarization)\
-      📄 [Go to detailed file](data/10_text_summarization.md)
-    - [🌍 Machine Translation](#-machine-translation)\
-      📄 [Go to detailed file](data/11_machine_translation.md)
-    - [📖 Dictionary \& Vocabulary](#-dictionary--vocabulary)\
-      📄 [Go to detailed file](data/12_dictionary_vocabulary.md)
-    - [🤖 Pre-trained Models](#-pre-trained-models)\
-      📄 [Go to detailed file](data/13_pre_trained_models.md)
-    - [🛠️ Tools \& Libraries](#️-tools--libraries)\
-      📄 [Go to detailed file](data/14_tools_libraries.md)
-- [🚀 Quick Start](#-quick-start)
-- [🤝 Contributing](#-contributing)
-- [📚 Key Papers](#-key-papers)
-- [⭐ Star This Repository](#-star-this-repository)
-- [📧 Contact](#-contact)
-- [📄 License](#-license)
-- [📖 Citations](#-citations)
+## Link health
 
+Every URL here is checked automatically, and a dead link fails the build rather than sitting there for years:
 
-## 🎯 Overview
+```bash
+python3 scripts/check_links.py                        # exits 1 when a link is dead
+python3 scripts/check_links.py --markdown-out report.md
+```
 
-Indonesia, with over 700 local languages and 270 million speakers, represents one of the world's most linguistically diverse regions. This collection aims to support the development of AI systems that understand and generate Indonesian text across various domains and modalities.
+[`.github/workflows/link-check.yml`](.github/workflows/link-check.yml) runs weekly (Mondays 06:00 UTC), writes the report to the job summary, pushes it to Telegram when the secrets exist, and opens or updates an issue labelled `link-rot`.
 
-**Key Statistics:**
+Classification is deliberately conservative: **dead** means a 4xx/5xx response or a host that no longer resolves. Bot walls (403/429) and hosts unreachable from the runner are reported separately and do not fail the check.
 
-- **15+ dataset categories** covering diverse NLP tasks
-- **100+ individual datasets** from text to multimodal
-- **Multiple language variants** including Bahasa Indonesia and local languages
-- **Various scales** from small specialized datasets to large-scale corpora
+## Curation policy
 
+An entry is never deleted because its download link rotted. These corpora are named artefacts — Kompas/Tempo news, the Kaskus crawl, Indonesian CC-News — that outlive their hosting. Dead links are handled in three ways:
 
-## 📋 TODO
+1. the entry keeps a live alternative if one exists;
+2. otherwise the link points at a verified Wayback snapshot;
+3. otherwise it becomes plain text marked `dead link, Oct 2026`.
 
-### 🚧 Upcoming Features
+## Categories
 
-We are actively working on improving the awesome-indonesian-llm-dataset repository with the following planned features:
+| Task | File |
+| --- | --- |
+| Natural language understanding | [`01`](data/01_natural_language_understanding.md) |
+| Token classification | [`02`](data/02_token_classification.md) |
+| Knowledge graphs | [`03`](data/03_knowledge_graphs.md) |
+| Web crawl and text corpora | [`04`](data/04_web_crawl_text_corpora.md) |
+| Local languages | [`05`](data/05_local_languages.md) |
+| Multimodal and vision-language | [`06`](data/06_multimodal_vision_language.md) |
+| Paraphrase and text similarity | [`07`](data/07_paraphrase_text_similarity.md) |
+| Question answering | [`08`](data/08_question_answering.md) |
+| Speech and audio | [`09`](data/09_speech_audio.md) |
+| Text summarization | [`10`](data/10_text_summarization.md) |
+| Machine translation | [`11`](data/11_machine_translation.md) |
+| Dictionary and vocabulary | [`12`](data/12_dictionary_vocabulary.md) |
+| Pre-trained models | [`13`](data/13_pre_trained_models.md) |
+| Tools and libraries | [`14`](data/14_tools_libraries.md) |
 
-#### 🤗 HuggingFace Repository Integration
+## Related
 
-- **Create centralized HuggingFace organization/repository** for hosting all Indonesian datasets
-- **Standardize dataset formats** across all collections for consistency
-- **Implement dataset cards** with comprehensive metadata and usage examples
-- **Set up automated dataset validation** and quality checks
-- **Enable direct dataset loading** via HuggingFace `datasets` library
-- **Provide dataset versioning** and update tracking
+- [NusaX](https://github.com/IndoNLP/nusax) — parallel sentiment and MT corpus for Indonesian and 10 local languages (EACL 2023).
+- [SEACrowd](https://github.com/SEACrowd/seacrowd-datahub) — the Southeast Asian data hub several entries now point at.
+- [IndoNLU](https://github.com/IndoNLP/indonlu) — benchmark suite for Indonesian NLU.
 
+## Sections below
 
-#### 🔧 Unified Access \& Preprocessing Code
-
-- **Develop `indonesian-nlp` Python package** for easy dataset access
-- **Create standardized preprocessing pipelines** for different data types:
-    - Text normalization and cleaning
-    - Language detection and filtering
-    - Format conversion utilities
-    - Train/validation/test splitting
-- **Implement unified data loaders** with consistent APIs across all datasets
-- **Add data validation and quality metrics** for each dataset
-- **Provide pre-built tokenization** for Indonesian language models
-- **Create benchmark evaluation scripts** for common NLP tasks
-
-
-#### 📚 Documentation \& Examples
-
-- **Comprehensive usage tutorials** for each dataset category
-- **Jupyter notebook examples** demonstrating common use cases
-- **Model training templates** using the unified preprocessing code
-- **Performance benchmarks** and evaluation metrics
-- **Integration guides** with popular NLP frameworks (Transformers, spaCy, etc.)
-
-
-#### 🔄 Community Features
-
-- **Dataset request system** for missing language resources
-- **Quality feedback mechanism** for dataset improvements
-- **Contribution guidelines** for adding new datasets
-- **Regular dataset updates** and maintenance schedule
-
-
-### 🤝 Get Involved
-
-Interested in contributing to these developments? We welcome:
-
-- **Dataset contributions** and quality improvements
-- **Code contributions** for preprocessing utilities
-- **Documentation** and tutorial writing
-- **Testing and feedback** on beta features
-
-Please check our [GitHub repository](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset) to get involved!
+[Quick start](#-quick-start) · [Contributing](#-contributing) · [Key papers](#-key-papers) · [License](#-license) · [Citations](#-citations)
 
 ## 📊 Dataset Categories
+
 
 📄 [Go to overview file](data/00_dataset_categories.md)
 
@@ -1101,7 +1046,8 @@ We welcome contributions to expand this collection! Please:
 2. **Add** new datasets with proper documentation
 3. **Include** dataset descriptions, sizes, and access links
 4. **Provide** citation information when available
-5. **Submit** a pull request with your additions
+5. **Run `python3 scripts/check_links.py`** — a pull request that adds a dead link fails CI
+6. **Submit** a pull request with your additions
 
 ### Dataset Submission Guidelines
 
