@@ -48,11 +48,16 @@ jobs:
           text = open("link-report.md", encoding="utf-8").read()
           print(text[:3900] + ("\n..." if len(text) > 3900 else ""))
           PY
-          curl -sS --fail -X POST \
+          # Record the API answer: a bare "curl: 22" hides whether the chat
+          # id is wrong or the token is rejected.
+          code=$(curl -sS -o telegram-response.json -w '%{http_code}' -X POST \
             "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            -d "chat_id=${TELEGRAM_CHAT_ID}" \
-            -d "disable_web_page_preview=true" \
-            --data-urlencode "text@message.txt"
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "disable_web_page_preview=true" \
+            --data-urlencode "text@message.txt")
+          echo "telegram http $code"
+          jq -r 'if .ok then "delivered: message_id \(.result.message_id)" else "rejected: \(.error_code) \(.description)" end' telegram-response.json
+          [ "$code" = "200" ]
 
       # Issues are optional: this repository may run with them disabled.
       - name: Open or update a tracking issue
