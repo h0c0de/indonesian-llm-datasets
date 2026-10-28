@@ -6,6 +6,9 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
   push:
+    # Branch pushes only: path filters are ignored for tag pushes, which
+    # would otherwise re-run the whole check on every release.
+    branches: ["main"]
     paths:
       - "scripts/check_links.py"
       - ".github/workflows/link-check.yml"
