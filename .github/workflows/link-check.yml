@@ -1,0 +1,73 @@
+name: Link check
+
+on:
+  schedule:
+    # Mondays 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/check_links.py"
+      - ".github/workflows/link-check.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # Job-level so steps can test them: the secrets context is not
+      # available inside a step-level `if:`.
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check links
+        id: check
+        continue-on-error: true
+        run: python3 scripts/check_links.py --markdown-out link-report.md
+
+      - name: Publish report to the job summary
+        if: always()
+        run: cat link-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Telegram notification
+        if: always() && env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != ''
+        run: |
+          python3 - <<'PY' > message.txt
+          text = open("link-report.md", encoding="utf-8").read()
+          print(text[:3900] + ("\n..." if len(text) > 3900 else ""))
+          PY
+          curl -sS --fail -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "disable_web_page_preview=true" \
+            --data-urlencode "text@message.txt"
+
+      # Issues are optional: this repository may run with them disabled.
+      - name: Open or update a tracking issue
+        if: steps.check.outcome == 'failure'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create link-rot --color BFD4F2 --description "Automated link rot report" 2>/dev/null || true
+          existing=$(gh issue list --label link-rot --state open --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file link-report.md
+          else
+            gh issue create --title "Dead links detected" --label link-rot --body-file link-report.md
+          fi
+
+      - name: Fail the run when links are dead
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "::error::Dead links found; see the job summary."
+          exit 1
