@@ -39,7 +39,9 @@ USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/130.0 Safari/537.36 awesome-links/1.0"
 )
-BLOCKED_STATUS = {403, 429}
+# 418 is what IEEE Xplore and some CDNs answer to non-browser clients;
+# it is a bot wall, not a missing page.
+BLOCKED_STATUS = {403, 418, 429}
 # A host that does not resolve is gone. A refused/unroutable connection only
 # proves this machine could not reach it, so it must not fail the run.
 DNS_MARKERS = ("no address associated", "name or service not known", "nodename nor servname")
