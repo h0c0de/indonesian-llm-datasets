@@ -53,7 +53,7 @@ This section covers datasets for question answering tasks including reading comp
 ### QED (Educational Domain)
 - **Description**: Question-answer pairs from educational content
 - **Coverage**: Multilingual educational corpus including Indonesian
-- **Links**: [Opus](https://opus.nlpl.eu/QED.php)
+- **Links**: [Opus](https://opus.nlpl.eu/datasets/QED)
 
 ## Dataset Characteristics
 

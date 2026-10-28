@@ -9,7 +9,7 @@ This section covers datasets for paraphrase identification, text similarity meas
 - **Source**: Translated from Google's PAWS dataset using Google Translate
 - **Focus**: Word order and structural importance in paraphrase detection
 - **Content**: High-quality pairs with human judgments on paraphrasing and fluency
-- **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/PAWS) | [Original](https://github.com/google-research-datasets/paws)
+- **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/paws) | [Original](https://github.com/google-research-datasets/paws)
 
 **Dataset Splits:**
 - **PAWS-Wiki Labeled (Final)**: Train/Dev/Test splits with complete human annotations

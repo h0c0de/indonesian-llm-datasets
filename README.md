@@ -116,7 +116,7 @@ Interested in contributing to these developments? We welcome:
 - **Documentation** and tutorial writing
 - **Testing and feedback** on beta features
 
-Please check our [GitHub Issues](https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/issues) or start a [Discussion](https://github.com/irfanfadhullah/awesome-indonesia-llm-dataset/discussions) to get involved!
+Please check our [GitHub repository](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset) to get involved!
 
 ## 📊 Dataset Categories
 
@@ -131,7 +131,7 @@ Please check our [GitHub Issues](https://github.com/irfanfadhullah/awesome-indon
 - **Description**: Human-annotated NLI data for Indonesian with train/val/test splits
 - **Size**: Thousands of premise-hypothesis pairs
 - **Tasks**: Natural language inference, textual entailment
-- **Links**: [GitHub Repository](https://github.com/ir-nlp-csui/indonli) | [HuggingFace](https://huggingface.co/datasets/indonli)
+- **Links**: [GitHub Repository](https://github.com/ir-nlp-csui/indonli) | [HuggingFace](https://huggingface.co/datasets/afaji/indonli)
 - **Paper**: EMNLP 2021
 
 **Key Features:**
@@ -207,7 +207,7 @@ Comprehensive collection of datasets for various NLP tasks:
     - **Links**: [GitHub Repository](https://github.com/dziem/proner-labeled-text)
 - **NER-GRIT**
     - **Description**: Indonesian NER corpus for research and development
-    - **Links**: [GitHub Repository](https://github.com/grit-id/nergrit-corpus)
+    - **Links**: [HuggingFace](https://huggingface.co/datasets/grit-id/id_nergrit_corpus)
 - **Singgalang NER Dataset**
     - **Description**: Automatically generated NER corpus
     - **Size**: 48K sentences
@@ -305,7 +305,7 @@ Comprehensive collection of datasets for various NLP tasks:
 - **WiLI-2018**: [Zenodo Link](https://zenodo.org/records/841984) - 235000 paragraphs of 235 languages
 - **WikiANN**: [DropBox Link](https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1) - Supports 176 languages
 - **Tatoeba**: [HuggingFace Link](https://huggingface.co/datasets/Helsinki-NLP/tatoeba) - 32G translation units in 2,539 bitexts
-- **QCRI Educational Domain Corpus**: [Link](https://opus.nlpl.eu/QED/en&es/v2.0a/QED) - 225 languages, 271,558 files
+- **QCRI Educational Domain Corpus**: [Link](https://opus.nlpl.eu/datasets/QED) - 225 languages, 271,558 files
 
 
 #### Specialized Crawl Datasets
@@ -358,8 +358,8 @@ Additional datasets available on HuggingFace:
 - [Cendol Collection v2](https://huggingface.co/datasets/indonlp/cendol_collection_v2)
 - [IndoNLG](https://github.com/indobenchmark/indonlg) - Natural language generation datasets
 - [IndoBERTweet](https://github.com/indolem/IndoBERTweet) - Indonesian Twitter corpus
-- [ID Clickbait News](https://huggingface.co/datasets/id_clickbait)
-- [ID Newspapers 2018](https://huggingface.co/datasets/id_newspapers_2018)
+- [ID Clickbait News](https://huggingface.co/datasets/community-datasets/id_clickbait)
+- [ID Newspapers 2018](https://huggingface.co/datasets/community-datasets/id_newspapers_2018)
 
 
 ### 🗣️ Local Languages
@@ -511,7 +511,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: 100K human-labeled pairs
 - **Source**: Translated from Google's PAWS dataset
 - **Focus**: Word order and structure importance
-- **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/PAWS) | [Original](https://github.com/google-research-datasets/paws)
+- **Links**: [GitHub Repository](https://github.com/Wikidepia/indonesia_dataset/tree/master/paraphrase/paws) | [Original](https://github.com/google-research-datasets/paws)
 
 **Quora Paraphrasing ID**
 
@@ -584,7 +584,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 **QED (Question-Answer pairs multilingual)**
 
 - **Description**: Educational domain corpus with Indonesian data
-- **Links**: [Opus](https://opus.nlpl.eu/QED.php)
+- **Links**: [Opus](https://opus.nlpl.eu/datasets/QED)
 
 
 ### 🎙️ Speech \& Audio
@@ -603,12 +603,12 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 **Mozilla Common Voice (Indonesian)**
 
 - **Description**: Crowdsourced speech recognition dataset
-- **Links**: [HuggingFace](https://huggingface.co/datasets/common_voice)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
 
 **CoVoST2**
 
 - **Description**: Speech translation dataset including Indonesian
-- **Links**: [HuggingFace](https://huggingface.co/datasets/covost2)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/facebook/covost2)
 
 **Large Javanese ASR Dataset**
 
@@ -773,11 +773,11 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 **Additional Parallel Corpora**
 
-- **TAPACO**: [HuggingFace](https://huggingface.co/datasets/tapaco)
-- **opus100**: [HuggingFace](https://huggingface.co/datasets/opus100)
-- **PANL BPPT**: [HuggingFace](https://huggingface.co/datasets/id_panl_bppt)
-- **Bible-uedin**: [Opus](https://opus.nlpl.eu/bible-uedin.php)
-- **Open Subtitles**: [HuggingFace](https://huggingface.co/datasets/open_subtitles)
+- **TAPACO**: [HuggingFace](https://huggingface.co/datasets/community-datasets/tapaco)
+- **opus100**: [HuggingFace](https://huggingface.co/datasets/Helsinki-NLP/opus-100)
+- **PANL BPPT**: [HuggingFace](https://huggingface.co/datasets/cahya/id_panl_bppt)
+- **Bible-uedin**: [Opus](https://opus.nlpl.eu/datasets/bible-uedin)
+- **Open Subtitles**: [HuggingFace](https://huggingface.co/datasets/Helsinki-NLP/open_subtitles)
 
 
 ### 📖 Dictionary \& Vocabulary
@@ -860,7 +860,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Score-based lexicons**:
     - [SentiStrengthID](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/sentimentword.txt)
     - [InSet Lexicon](https://github.com/fajri91/InSet)
-- **HuggingFace dataset**: [senti_lex](https://huggingface.co/datasets/senti_lex)
+- **HuggingFace dataset**: [senti_lex](https://huggingface.co/datasets/senti-lex/senti_lex)
 
 
 #### Root Words
@@ -2246,7 +2246,7 @@ location = {Hanoi, Vietnam}
   title={NERGrit Corpus},
   author={NERGrit Developers},
   year={2019},
-  url={https://github.com/grit-id/nergrit-corpus}
+  url={https://huggingface.co/datasets/grit-id/id_nergrit_corpus}
 }
 ```
 

@@ -34,7 +34,7 @@ This section covers large-scale text collections, web crawl datasets, and genera
 - **WiLI-2018**: [Zenodo Link](https://zenodo.org/records/841984) - 235000 paragraphs of 235 languages
 - **WikiANN**: [DropBox Link](https://www.dropbox.com/s/12h3qqog6q4bjve/panx_dataset.tar?dl=1) - Supports 176 languages
 - **Tatoeba**: [HuggingFace Link](https://huggingface.co/datasets/Helsinki-NLP/tatoeba) - 32G translation units in 2,539 bitexts
-- **QCRI Educational Domain Corpus**: [Link](https://opus.nlpl.eu/QED/en&es/v2.0a/QED) - 225 languages, 271,558 files
+- **QCRI Educational Domain Corpus**: [Link](https://opus.nlpl.eu/datasets/QED) - 225 languages, 271,558 files
 
 ## Specialized Crawl Datasets
 
@@ -79,8 +79,8 @@ Additional datasets available on HuggingFace:
 - [Cendol Collection v2](https://huggingface.co/datasets/indonlp/cendol_collection_v2)
 - [IndoNLG](https://github.com/indobenchmark/indonlg) - Natural language generation datasets
 - [IndoBERTweet](https://github.com/indolem/IndoBERTweet) - Indonesian Twitter corpus
-- [ID Clickbait News](https://huggingface.co/datasets/id_clickbait)
-- [ID Newspapers 2018](https://huggingface.co/datasets/id_newspapers_2018)
+- [ID Clickbait News](https://huggingface.co/datasets/community-datasets/id_clickbait)
+- [ID Newspapers 2018](https://huggingface.co/datasets/community-datasets/id_newspapers_2018)
 
 ## Citations
 

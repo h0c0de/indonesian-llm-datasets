@@ -7,7 +7,7 @@ This section covers datasets and resources for natural language understanding ta
 - **Description**: Human-annotated NLI data for Indonesian with train/val/test splits
 - **Size**: Thousands of premise-hypothesis pairs
 - **Tasks**: Natural language inference, textual entailment
-- **Links**: [GitHub Repository](https://github.com/ir-nlp-csui/indonli) | [HuggingFace](https://huggingface.co/datasets/indonli)
+- **Links**: [GitHub Repository](https://github.com/ir-nlp-csui/indonli) | [HuggingFace](https://huggingface.co/datasets/afaji/indonli)
 - **Paper**: EMNLP 2021
 
 **Key Features:**

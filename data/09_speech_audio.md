@@ -38,14 +38,14 @@ This section covers speech recognition datasets, text-to-speech resources, and a
 
 - **Description**: Crowdsourced open speech recognition dataset
 - **Content**: Community-contributed voice recordings
-- **Links**: [HuggingFace](https://huggingface.co/datasets/common_voice)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0)
 
 
 ### CoVoST2
 
 - **Description**: Cross-lingual speech translation dataset
 - **Coverage**: Multiple language pairs including Indonesian
-- **Links**: [HuggingFace](https://huggingface.co/datasets/covost2)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/facebook/covost2)
 
 
 ### CMU Wilderness Multilingual Speech Dataset

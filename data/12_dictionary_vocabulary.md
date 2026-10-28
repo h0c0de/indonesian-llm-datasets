@@ -71,7 +71,7 @@ This section covers lexical resources including dictionaries, word lists, sentim
 **Score-based Lexicons:**
 - [SentiStrengthID](https://github.com/agusmakmun/SentiStrengthID/blob/master/id_dict/sentimentword.txt)
 - [InSet Lexicon](https://github.com/fajri91/InSet)
-- [HuggingFace senti_lex](https://huggingface.co/datasets/senti_lex)
+- [HuggingFace senti_lex](https://huggingface.co/datasets/senti-lex/senti_lex)
 
 ## Morphological Resources
 

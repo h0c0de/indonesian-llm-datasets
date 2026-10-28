@@ -67,23 +67,23 @@ This section covers parallel corpora and translation datasets for Indonesian pai
 
 ### TAPACO
 - **Description**: Translation of paraphrases across languages
-- **Links**: [HuggingFace](https://huggingface.co/datasets/tapaco)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/community-datasets/tapaco)
 
 ### opus100
 - **Description**: Multilingual parallel corpus covering 100 languages
-- **Links**: [HuggingFace](https://huggingface.co/datasets/opus100)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/Helsinki-NLP/opus-100)
 
 ### PANL BPPT
 - **Description**: Indonesian translation corpus
-- **Links**: [HuggingFace](https://huggingface.co/datasets/id_panl_bppt)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/cahya/id_panl_bppt)
 
 ### Bible-uedin
 - **Description**: Biblical text translations across languages
-- **Links**: [Opus](https://opus.nlpl.eu/bible-uedin.php)
+- **Links**: [Opus](https://opus.nlpl.eu/datasets/bible-uedin)
 
 ### Open Subtitles
 - **Description**: Movie and TV subtitle translations
-- **Links**: [HuggingFace](https://huggingface.co/datasets/open_subtitles)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/Helsinki-NLP/open_subtitles)
 
 ## Local Language Translation
 

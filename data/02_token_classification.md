@@ -10,7 +10,7 @@ This section covers datasets for token-level classification tasks including Name
 
 ### NER-GRIT
 - **Description**: Indonesian NER corpus for research and development
-- **Links**: [GitHub Repository](https://github.com/grit-id/nergrit-corpus)
+- **Links**: [HuggingFace](https://huggingface.co/datasets/grit-id/id_nergrit_corpus)
 
 ### Singgalang NER Dataset
 - **Description**: Automatically generated NER corpus
@@ -81,7 +81,7 @@ url={https://github.com/famrashel/idn-treebank}
 title={NERGrit Corpus},
 author={NERGrit Developers},
 year={2019},
-url={https://github.com/grit-id/nergrit-corpus}
+url={https://huggingface.co/datasets/grit-id/id_nergrit_corpus}
 }
 
 ```
