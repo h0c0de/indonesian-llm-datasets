@@ -13,6 +13,7 @@ Maintained derivative of [irfanfadhullah/awesome-indonesian-llm-dataset](https:/
 | Dead links | 0, as of the 2026-10-28 audit |
 | Languages | Indonesian and 10 local languages |
 | Source of truth | Markdown only; nothing is generated |
+| For agents | [`SKILL.md`](skills/indonesian-llm-datasets/SKILL.md) — how to search, verify, and cite entries |
 | Web version | <https://h0c0de.github.io/indonesian-llm-datasets/> |
 
 ## Link health
