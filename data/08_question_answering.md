@@ -10,7 +10,7 @@ This section covers datasets for question answering tasks including reading comp
 - **Translation Methods**: 
   - Google Translate alignment (similar to Swedish SQuAD approach)
   - TranslateAlignRetrieve with MarianMT
-- **Links**: [Download](https://stor.akmal.dev/squad/) | [Original](https://rajpurkar.github.io/SQuAD-explorer/)
+- **Links**: [Original](https://rajpurkar.github.io/SQuAD-explorer/)
 - **Paper**: Stanford Question Answering Dataset (SQuAD) 2.0
 
 **Usage Note**: If using with HuggingFace `run_qa.py`, run the `convert_huggingface.py` script for compatibility.

@@ -40,19 +40,19 @@ This section covers large-scale text collections, web crawl datasets, and genera
 
 ### Kaskus WebText
 - **Size**: 7K URLs from Indonesian forum with quality filtering
-- **Links**: [Download](https://stor.akmal.dev/kaskus-webtext.tar.zst) | [Source List](https://stor.akmal.dev/kaskus.jsonl.zst)
+- **Links**: Download (dead link, Oct 2026) | Source List (dead link, Oct 2026)
 
 ### Wikipedia Links
 - **Size**: 58K URLs from Indonesian Wikipedia external links
-- **Links**: [Download](https://stor.akmal.dev/wikipedia-links.tar.zst)
+- **Links**: Download (dead link, Oct 2026)
 
 ### Indonesian CommonCrawl News
 - **Description**: Processed CommonCrawl News filtered for Indonesian
-- **Links**: [Download](https://stor.akmal.dev/ccnews-id.tar)
+- **Links**: Download (dead link, Oct 2026)
 
 ### Twitter Collections
 - **Twitter Puisi**: 80K+ poems from [@PelangiPuisi](https://twitter.com/PelangiPuisi)
-- **Twitter Crawl**: [Download](https://stor.akmal.dev/twitter-dump/)
+- **Twitter Crawl**: Download (dead link, Oct 2026)
 
 ### Clean mC4
 - **Description**: Indonesian mC4 with spam/NSFW/gambling filtering
@@ -60,15 +60,15 @@ This section covers large-scale text collections, web crawl datasets, and genera
 
 ### Javanese Text
 - **Sources**: CC100, data.statmt.org, Wikipedia
-- **Links**: [Download](https://stor.akmal.dev/jv-text/)
+- **Links**: Download (dead link, Oct 2026)
 
 ## Historical News Corpora
 
 ### Kompas Online Collection (2001–2002)
-- **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/kompas.zip)
+- **Links**: Download (dead link, Oct 2026)
 
 ### Tempo Online Collection (2000–2002)
-- **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/tempo.zip)
+- **Links**: Download (dead link, Oct 2026)
 
 ## HuggingFace Datasets Collection
 
@@ -106,14 +106,14 @@ pages = "4003--4012",
 title={Kompas Online Collection},
 author={University of Amsterdam},
 year={2002},
-url={http://ilps.science.uva.nl/resources/bahasa/}
+url={https://web.archive.org/web/20201030140022/https://ilps.science.uva.nl/resources/bahasa/}
 }
 
 @misc{tempo2002,
 title={Tempo Online Collection},
 author={University of Amsterdam},
 year={2002},
-url={http://ilps.science.uva.nl/resources/bahasa/}
+url={https://web.archive.org/web/20201030140022/https://ilps.science.uva.nl/resources/bahasa/}
 }
 
 ```

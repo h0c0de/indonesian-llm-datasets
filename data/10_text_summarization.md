@@ -51,7 +51,7 @@ This section covers datasets for both abstractive and extractive text summarizat
 - **Description**: Cross-lingual summarization dataset from WikiHow
 - **Size**: ~770K article-summary pairs across 18 languages
 - **Features**: Gold-standard article-summary alignments across languages
-- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [Data Download](https://drive.google.com/file/d/1sTCB5NDPq6vUOlxR29DbvSssErvXLD1d/view?usp=sharing)
+- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | Data Download (dead link, Oct 2026)
 
 ## Social Media and Web Content
 
@@ -59,13 +59,13 @@ This section covers datasets for both abstractive and extractive text summarizat
 - **Description**: Social media domain summaries translated from Reddit
 - **Size**: ~4M content-summary pairs
 - **Source**: Reddit TL;DR posts (2006-2016)
-- **Links**: [Download](https://stor.akmal.dev/reddit-tldr.jsonl.zst)
+- **Links**: Download (dead link, Oct 2026)
 - **Note**: Translation quality may vary due to Google Translate character limits
 
 ### WikiHow (Indonesian)
 - **Description**: Headline and procedural text pairs from WikiHow Indonesia
 - **Content**: How-to articles with step-by-step instructions
-- **Links**: [Download](https://stor.akmal.dev/wikihow.json.zst) | [Original](https://github.com/mahnazkoupaee/WikiHow-Dataset)
+- **Links**: [Original](https://web.archive.org/web/20241005080038/https://github.com/mahnazkoupaee/WikiHow-Dataset)
 
 ## News Headlines and Short Summaries
 
@@ -73,7 +73,7 @@ This section covers datasets for both abstractive and extractive text summarizat
 - **Description**: Headline generation dataset from news articles
 - **Size**: ~4M article-headline pairs
 - **Task**: Article → headline summarization
-- **Links**: [Download](https://stor.akmal.dev/gigaword.tar.zst)
+- **Links**: Download (dead link, Oct 2026)
 - **Processing**: Uses improved format from Microsoft UniLM
 
 ### Indonesian Simple Summaries (Our Works)

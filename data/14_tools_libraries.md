@@ -126,7 +126,7 @@ tagger.predict(sentence)
 - **Description**: spaCy extension for Indonesian language processing
 - **Features**: Industrial-strength NLP for Indonesian
 - **Links**: [spaCy Official](https://github.com/explosion/spaCy)
-- **Tutorial**: [spaCy Bahasa Indonesia Guide](https://bagas.me/spacy-bahasa-indonesia.html)
+- **Tutorial**: [spaCy Bahasa Indonesia Guide](https://web.archive.org/web/20230806115258/https://bagas.me/spacy-bahasa-indonesia.html)
 
 **Capabilities:**
 - Tokenization
@@ -183,7 +183,7 @@ tagger.predict(sentence)
 - **Description**: Twitter API wrapper for Python
 - **Use Case**: Indonesian social media data collection
 - **Documentation**: [Tweepy Docs](http://docs.tweepy.org/en/latest/)
-- **Tutorial**: [Tweet Scraping Guide](https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1)
+- **Tutorial**: [Tweet Scraping Guide](https://web.archive.org/web/20231118035211/https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1)
 
 ## Spelling and Grammar Tools
 

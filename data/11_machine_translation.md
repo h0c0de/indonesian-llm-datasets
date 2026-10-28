@@ -31,14 +31,14 @@ This section covers parallel corpora and translation datasets for Indonesian pai
 ### Europarl
 - **Description**: European Parliament proceedings in multiple languages
 - **Coverage**: 21 European languages including Indonesian translations
-- **Links**: [Download](https://storage.depia.wiki/europarl.jsonl.zst) | [Original](http://opus.nlpl.eu/)
+- **Links**: [Original](http://opus.nlpl.eu/)
 - **Period**: Parliamentary proceedings from multiple years
 
 ### EuroPat v2
 - **Description**: Patent translations from major patent offices
 - **Sources**: USPTO (United States) and EPO (European Patent Organisation)
 - **Domain**: Technical and legal patent documents
-- **Links**: [Download](https://storage.depia.wiki/europat.jsonl.zst) | [Original](https://europat.net/)
+- **Links**: [Original](https://europat.net/)
 
 ## Specialized Translation Datasets
 

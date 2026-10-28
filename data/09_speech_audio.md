@@ -126,7 +126,7 @@ The LUMINA dataset serves multiple research purposes beyond traditional ASR:
 - **Description**: Automatically generated speech using Google Translate TTS
 - **Source**: Indonesian newspaper titles from id_newspapers_2018
 - **Size**: 500K utterances
-- **Links**: [Download](https://stor.akmal.dev/gtts-500k.zip)
+- **Links**: Download (dead link, Oct 2026)
 - **Format**: Audio files with base64-encoded text in filenames
 
 

@@ -36,7 +36,7 @@ This section covers datasets for token-level classification tasks including Name
 - **Description**: Comprehensive POS-tagged corpus
 - **Size**: 10,000 annotated sentences, 250,000 tokens, 23 tags
 - **Links**: [GitHub Repository](https://github.com/famrashel/idn-tagged-corpus)
-- **Paper**: [Designing an Indonesian POS Tagset (PDF)](http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
+- **Paper**: [Designing an Indonesian POS Tagset (PDF)](https://web.archive.org/web/20220526141150/https://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
 
 ### UD Indonesian-GSD
 - **Description**: Universal Dependencies Indonesian dependency treebank

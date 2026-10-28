@@ -91,7 +91,7 @@ This section covers lexical resources including dictionaries, word lists, sentim
 ### Stopwords
 - [stopwordsID.txt](https://github.com/yasirutomo/python-sentianalysis-id/blob/master/data/feature_list/stopwordsID.txt)
 - [stopword.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/stopword.txt)
-- [elang stopwords-list](https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list)
+- [elang stopwords-list](https://web.archive.org/web/20210801192813/https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list)
 - [Combined stopwords](https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_stop_words.txt)
 
 ## Expression and Communication
@@ -109,7 +109,7 @@ This section covers lexical resources including dictionaries, word lists, sentim
 ## Geographic and Administrative Data
 
 ### Indonesia Regions & Administrative Data
-- [elang region](https://github.com/abhimantramb/elang/blob/master/word2vec/utils/indonesian-region.txt)
+- elang region (dead link, Oct 2026)
 - [Wilayah Administratif Indonesia CSV](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia/tree/master/csv)
 - [Indonesia Postal Code CSV](https://github.com/pentagonal/Indonesia-Postal-Code/tree/master/Csv)
 - [Country list](https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/country.txt)

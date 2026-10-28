@@ -9,17 +9,17 @@ This section covers datasets that combine text with visual modalities, including
 **CC3M Indonesian**
 - **Size**: 3M image-caption pairs translated to Indonesian
 - **Source**: Google's Conceptual Captions dataset
-- **Links**: [Download](https://stor.akmal.dev/cc3m-train.jsonl.zst) | [Original](https://github.com/google-research-datasets/conceptual-captions)
+- **Links**: [Original](https://github.com/google-research-datasets/conceptual-captions)
 
 **CC12M Indonesian**
 - **Size**: 12M image-caption pairs for vision-language pre-training
 - **Purpose**: Large-scale multimodal training
-- **Links**: [Download](https://stor.akmal.dev/cc12m.jsonl.zst) | [Original](https://github.com/google-research-datasets/conceptual-12m)
+- **Links**: [Original](https://github.com/google-research-datasets/conceptual-12m)
 
 ### YFCC100M OpenAI Subset
 - **Size**: 14.8M images with natural language descriptions
 - **Format**: Image URLs with Indonesian captions
-- **Links**: [Download](https://stor.akmal.dev/yfcc100.jsonl.zst) | [Original](https://github.com/openai/CLIP/blob/main/data/yfcc100m.md)
+- **Links**: [Original](https://github.com/openai/CLIP/blob/main/data/yfcc100m.md)
 
 ### MSVD-Indonesian
 - **Description**: Video-text dataset derived from MSVD

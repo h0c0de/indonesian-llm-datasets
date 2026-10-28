@@ -26,7 +26,7 @@ Comprehensive collection of datasets for various NLP tasks:
   - [Aspect-Based Sentiment Analysis](https://github.com/annisanurulazhar/absa-playground)
   - [Mongabay](https://huggingface.co/datasets/Datasaur/Mongabay-collection)
 - **Text Classification**:
-  - [SMS Spam Detection](https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
+  - [SMS Spam Detection](https://web.archive.org/web/20260416161639/https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
   - [Hate Speech Detection](https://github.com/ialfina/id-hatespeech-detection) (713 tweets)
   - [Abusive Language Detection](https://github.com/okkyibrohim/id-abusive-language-detection)
   - [HoASA](https://huggingface.co/datasets/SEACrowd/hoasa)

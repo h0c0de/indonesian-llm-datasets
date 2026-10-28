@@ -18,13 +18,13 @@ This section covers datasets for paraphrase identification, text similarity meas
 ### ParaNMT-50M (Indonesian)
 - **Size**: Subset of 50M+ English paraphrase pairs translated to Indonesian
 - **Method**: Neural machine translation approach for paraphrase generation
-- **Links**: [Download](https://stor.akmal.dev/paranmt-5m.jsonl.zst) | [Original](http://www.cs.cmu.edu/~jwieting/)
+- **Links**: [Original](http://www.cs.cmu.edu/~jwieting/)
 
 ### ParaBank
 - **Description**: Diverse paraphrastic bitexts via sampling and clustering
 - **Method**: Guided backtranslation with constraints for paraphrase generation
 - **Size**: Large-scale diverse paraphrase pairs
-- **Links**: [Download](https://stor.akmal.dev/parabank-v2.0.jsonl.zst) | [Original](https://nlp.jhu.edu/parabank/)
+- **Links**: [Original](https://nlp.jhu.edu/parabank/)
 
 ### Quora Paraphrasing ID
 - **Description**: Indonesian adaptation of Quora paraphrase pairs
@@ -34,7 +34,7 @@ This section covers datasets for paraphrase identification, text similarity meas
 ### SBERT Paraphrase Data
 - **Description**: Various paraphrase datasets compiled by SBERT, translated to Indonesian
 - **Content**: Multiple paraphrase datasets for sentence embedding training
-- **Links**: [Download](https://storage.depia.wiki/sbert-paraphrase/)
+- **Links**: Download (dead link, Oct 2026)
 - **Note**: May require data cleaning before use
 
 ## Natural Language Inference
@@ -43,13 +43,13 @@ This section covers datasets for paraphrase identification, text similarity meas
 - **Description**: Multi-genre natural language inference corpus
 - **Size**: 433K sentence pairs with textual entailment annotations
 - **Genres**: Multiple genres of spoken and written text
-- **Links**: [Download](https://stor.akmal.dev/idmultinli/) | [Original](https://cims.nyu.edu/~sbowman/multinli)
+- **Links**: [Original](https://cims.nyu.edu/~sbowman/multinli)
 
 ### Indonesian SNLI
 - **Description**: Stanford Natural Language Inference corpus in Indonesian
 - **Size**: 570K human-written sentence pairs
 - **Labels**: Entailment, contradiction, neutral
-- **Links**: [Download](https://stor.akmal.dev/idsnli/) | [Original](https://nlp.stanford.edu/projects/snli/)
+- **Links**: [Original](https://nlp.stanford.edu/projects/snli/)
 
 ## Dataset Characteristics
 

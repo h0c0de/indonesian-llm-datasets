@@ -152,7 +152,7 @@ Comprehensive collection of datasets for various NLP tasks:
     - [Aspect-Based Sentiment Analysis](https://github.com/annisanurulazhar/absa-playground)
     - [Mongabay](https://huggingface.co/datasets/Datasaur/Mongabay-collection)
 - **Text Classification**:
-    - [SMS Spam Detection](https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
+    - [SMS Spam Detection](https://web.archive.org/web/20260416161639/https://drive.google.com/file/d/1-stKadfTgJLtYsHWqXhGO3nTjKVFxm_Q/view) (1,143 sentences)
     - [Hate Speech Detection](https://github.com/ialfina/id-hatespeech-detection) (713 tweets)
     - [Abusive Language Detection](https://github.com/okkyibrohim/id-abusive-language-detection)
     - [HoASA](https://huggingface.co/datasets/SEACrowd/hoasa)
@@ -231,7 +231,7 @@ Comprehensive collection of datasets for various NLP tasks:
     - **Description**: Comprehensive POS-tagged corpus
     - **Size**: 10,000 annotated sentences, 250,000 tokens, 23 tags
     - **Links**: [GitHub Repository](https://github.com/famrashel/idn-tagged-corpus)
-    - **Paper**: [Designing an Indonesian POS Tagset (PDF)](http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
+    - **Paper**: [Designing an Indonesian POS Tagset (PDF)](https://web.archive.org/web/20220526141150/https://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
 - **UD Indonesian-GSD**
     - **Description**: Universal Dependencies Indonesian dependency treebank
     - **Links**: [GitHub Repository](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
@@ -313,22 +313,22 @@ Comprehensive collection of datasets for various NLP tasks:
 **Kaskus WebText**
 
 - **Size**: 7K URLs from Indonesian forum with quality filtering
-- **Links**: [Download](https://stor.akmal.dev/kaskus-webtext.tar.zst) | [Source List](https://stor.akmal.dev/kaskus.jsonl.zst)
+- **Links**: Download (dead link, Oct 2026) | Source List (dead link, Oct 2026)
 
 **Wikipedia Links**
 
 - **Size**: 58K URLs from Indonesian Wikipedia external links
-- **Links**: [Download](https://stor.akmal.dev/wikipedia-links.tar.zst)
+- **Links**: Download (dead link, Oct 2026)
 
 **Indonesian CommonCrawl News**
 
 - **Description**: Processed CommonCrawl News filtered for Indonesian
-- **Links**: [Download](https://stor.akmal.dev/ccnews-id.tar)
+- **Links**: Download (dead link, Oct 2026)
 
 **Twitter Collections**
 
 - **Twitter Puisi**: 80K+ poems from [@PelangiPuisi](https://twitter.com/PelangiPuisi)
-- **Twitter Crawl**: [Download](https://stor.akmal.dev/twitter-dump/)
+- **Twitter Crawl**: Download (dead link, Oct 2026)
 
 **"Clean" mC4**
 
@@ -338,14 +338,14 @@ Comprehensive collection of datasets for various NLP tasks:
 **Javanese Text**
 
 - **Sources**: CC100, data.statmt.org, Wikipedia
-- **Links**: [Download](https://stor.akmal.dev/jv-text/)
+- **Links**: Download (dead link, Oct 2026)
 
 **Historical News Corpora**
 
 - **Kompas Online Collection** (2001–2002)
-    - **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/kompas.zip)
+    - **Links**: Download (dead link, Oct 2026)
 - **Tempo Online Collection** (2000–2002)
-    - **Links**: [Download](http://ilps.science.uva.nl/ilps/wp-content/uploads/sites/6/files/bahasaindonesia/tempo.zip)
+    - **Links**: Download (dead link, Oct 2026)
 
 
 #### HuggingFace Datasets Collection
@@ -447,14 +447,14 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 **Conceptual Captions (Indonesian)**
 
 - **CC3M**: 3M image-caption pairs translated to Indonesian
-    - **Links**: [Download](https://stor.akmal.dev/cc3m-train.jsonl.zst) | [Original](https://github.com/google-research-datasets/conceptual-captions)
+    - **Links**: [Original](https://github.com/google-research-datasets/conceptual-captions)
 - **CC12M**: 12M image-caption pairs for vision-language pre-training
-    - **Links**: [Download](https://stor.akmal.dev/cc12m.jsonl.zst) | [Original](https://github.com/google-research-datasets/conceptual-12m)
+    - **Links**: [Original](https://github.com/google-research-datasets/conceptual-12m)
 
 **YFCC100M OpenAI Subset**
 
 - **Size**: 14.8M images with natural language descriptions
-- **Links**: [Download](https://stor.akmal.dev/yfcc100.jsonl.zst) | [Original](https://github.com/openai/CLIP/blob/main/data/yfcc100m.md)
+- **Links**: [Original](https://github.com/openai/CLIP/blob/main/data/yfcc100m.md)
 
 **MSVD-Indonesian**
 
@@ -527,22 +527,22 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **Size**: Subset of 50M+ English paraphrase pairs
 - **Method**: Neural machine translation approach
-- **Links**: [Download](https://stor.akmal.dev/paranmt-5m.jsonl.zst) | [Original](http://www.cs.cmu.edu/~jwieting/)
+- **Links**: [Original](http://www.cs.cmu.edu/~jwieting/)
 
 **ParaBank**
 
 - **Description**: Diverse paraphrastic bitexts via sampling and clustering
-- **Links**: [Download](https://stor.akmal.dev/parabank-v2.0.jsonl.zst) | [Original](https://nlp.jhu.edu/parabank/)
+- **Links**: [Original](https://nlp.jhu.edu/parabank/)
 
 **Indonesian MultiNLI \& SNLI**
 
-- **MultiNLI**: [Download](https://stor.akmal.dev/idmultinli/) | [Original](https://cims.nyu.edu/~sbowman/multinli)
-- **SNLI**: [Download](https://stor.akmal.dev/idsnli/) | [Original](https://nlp.stanford.edu/projects/snli/)
+- **MultiNLI**: [Original](https://cims.nyu.edu/~sbowman/multinli)
+- **SNLI**: [Original](https://nlp.stanford.edu/projects/snli/)
 
 **SBERT Paraphrase Data**
 
 - **Description**: Various paraphrase datasets compiled by SBERT, translated to Indonesian
-- **Links**: [Download](https://storage.depia.wiki/sbert-paraphrase/)
+- **Links**: Download (dead link, Oct 2026)
 
 
 ### ❓ Question Answering
@@ -555,7 +555,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **Description**: Reading comprehension dataset
 - **Source**: Translated Stanford Question Answering Dataset
-- **Links**: [Download](https://stor.akmal.dev/squad/) | [Original](https://rajpurkar.github.io/SQuAD-explorer/)
+- **Links**: [Original](https://rajpurkar.github.io/SQuAD-explorer/)
 
 **Mathematics Dataset (Indonesian)**
 
@@ -638,7 +638,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **Description**: Automatically generated speech using Google Translate TTS
 - **Source**: Indonesian newspaper titles
-- **Links**: [Download](https://stor.akmal.dev/gtts-500k.zip)
+- **Links**: Download (dead link, Oct 2026)
 
 **Indonesian Unsupervised Speech Dataset**
 
@@ -692,7 +692,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 - **Size**: ~770k article and summary pairs in 18 languages from WikiHow
 - **Categories**: 17 languages
 - **Features**: Gold-standard article-summary alignments across languages
-- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | [Data Download](https://drive.google.com/file/d/1sTCB5NDPq6vUOlxR29DbvSssErvXLD1d/view?usp=sharing)
+- **Links**: [GitHub Repository](https://github.com/esdurmus/Wikilingua) | Data Download (dead link, Oct 2026)
 
 
 #### Translated Summarization Datasets
@@ -701,19 +701,19 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - **Size**: ~4M content-summary pairs
 - **Source**: Social media domain summaries
-- **Links**: [Download](https://stor.akmal.dev/reddit-tldr.jsonl.zst)
+- **Links**: Download (dead link, Oct 2026)
 
 **WikiHow (Indonesian)**
 
 - **Description**: Headline and procedural text pairs
 - **Source**: WikiHow Indonesia
-- **Links**: [Download](https://stor.akmal.dev/wikihow.json.zst) | [Original](https://github.com/mahnazkoupaee/WikiHow-Dataset)
+- **Links**: [Original](https://web.archive.org/web/20241005080038/https://github.com/mahnazkoupaee/WikiHow-Dataset)
 
 **GigaWord**
 
 - **Description**: Article headline generation dataset
 - **Size**: ~4M article pairs
-- **Links**: [Download](https://stor.akmal.dev/gigaword.tar.zst)
+- **Links**: Download (dead link, Oct 2026)
 
 **Indonesian Simple Summaries (Our Works)**
 
@@ -743,12 +743,12 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 **Europarl**
 
 - **Description**: European Parliament proceedings in 21 languages
-- **Links**: [Download](https://storage.depia.wiki/europarl.jsonl.zst) | [Original](http://opus.nlpl.eu/)
+- **Links**: [Original](http://opus.nlpl.eu/)
 
 **EuroPat v2**
 
 - **Description**: Patent translations from USPTO and EPO
-- **Links**: [Download](https://storage.depia.wiki/europat.jsonl.zst) | [Original](https://europat.net/)
+- **Links**: [Original](https://europat.net/)
 
 
 #### Specialized Translation Datasets
@@ -884,7 +884,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 - [stopwordsID.txt](https://github.com/yasirutomo/python-sentianalysis-id/blob/master/data/feature_list/stopwordsID.txt)
 - [stopword.txt](https://github.com/ramaprakoso/analisis-sentimen/blob/master/kamus/stopword.txt)
-- [elang stopwords-list](https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list)
+- [elang stopwords-list](https://web.archive.org/web/20210801192813/https://github.com/abhimantramb/elang/tree/master/word2vec/utils/stopwords-list)
 - [Combined stopwords](https://github.com/louisowen6/NLP_bahasa_resources/blob/master/combined_stop_words.txt)
 
 
@@ -904,7 +904,7 @@ datasets.load_dataset('indonlp/nusaparagraph_topic')
 
 #### Indonesia Regions \& Administrative Data
 
-- [elang region](https://github.com/abhimantramb/elang/blob/master/word2vec/utils/indonesian-region.txt)
+- elang region (dead link, Oct 2026)
 - [Wilayah Administratif Indonesia CSV](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia/tree/master/csv)
 - [Indonesia Postal Code CSV](https://github.com/pentagonal/Indonesia-Postal-Code/tree/master/Csv)
 - [Country list](https://github.com/panggi/pujangga/blob/master/resource/netagger/contextualfeature/country.txt)
@@ -995,7 +995,7 @@ Various pre-trained word embeddings are available including:
 
 - **Description**: spaCy extension for Indonesian
 - **Links**: [GitHub Repository](https://github.com/explosion/spaCy)
-- **Tutorial**: [spaCy Bahasa Indonesia Guide](https://bagas.me/spacy-bahasa-indonesia.html)
+- **Tutorial**: [spaCy Bahasa Indonesia Guide](https://web.archive.org/web/20230806115258/https://bagas.me/spacy-bahasa-indonesia.html)
 
 
 #### Miscellaneous Utilities
@@ -1033,7 +1033,7 @@ Various pre-trained word embeddings are available including:
 
 - **Description**: Twitter API wrapper
 - **Documentation**: [Tweepy Docs](http://docs.tweepy.org/en/latest/)
-- **Tutorial**: [How to Scrape Tweets](https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1)
+- **Tutorial**: [How to Scrape Tweets](https://web.archive.org/web/20231118035211/https://towardsdatascience.com/how-to-scrape-tweets-from-twitter-59287e20f0f1)
 
 
 ## 🚀 Quick Start
@@ -1127,10 +1127,10 @@ When adding new datasets, please include:
 - **IndoCareer**: Koto, NAACL HLT 2025
 - **IndoCloze**: Koto et al., CSRR at ACL 2022 (**Best Paper Award**)
 - **POS Tagging Bahasa Indonesia with Flair NLP**: [Medium Article](https://medium.com/@puspitakaban/pos-tagging-bahasa-indonesia-dengan-flair-nlp-c12e45542860)
-- **Indonesian POS Tagset Design**: [PDF](http://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
+- **Indonesian POS Tagset Design**: [PDF](https://web.archive.org/web/20220526141150/https://bahasa.cs.ui.ac.id/postag/downloads/Designing%20an%20Indonesian%20Part%20of%20speech%20Tagset.pdf)
 - **Sentiment Analysis Indonesian Twitter Dataset**: [ResearchGate](https://www.researchgate.net/publication/338409000_Dataset_Indonesia_untuk_Analisis_Sentimen)
 - **Hate Speech Multi-label Classification**: [ACL 2019](https://www.aclweb.org/anthology/W19-3506.pdf)
-- **Indonesian Treebank Workshop**: [NTU Workshop Slides](http://compling.hss.ntu.edu.sg/events/2016-ws-wn-bahasa/pdfx/manurung.pdf)
+- **Indonesian Treebank Workshop**: [NTU Workshop Slides](https://web.archive.org/web/20220120233139/http://compling.hss.ntu.edu.sg/events/2016-ws-wn-bahasa/pdfx/manurung.pdf)
 
 
 ## ⭐ Star This Repository
@@ -1726,7 +1726,7 @@ When using datasets from this collection, please cite this repository:
   title={Kompas Online Collection},
   author={University of Amsterdam},
   year={2002},
-  url={http://ilps.science.uva.nl/resources/bahasa/}
+  url={https://web.archive.org/web/20201030140022/https://ilps.science.uva.nl/resources/bahasa/}
 }
 ```
 
@@ -1737,7 +1737,7 @@ When using datasets from this collection, please cite this repository:
   title={Tempo Online Collection},
   author={University of Amsterdam},
   year={2002},
-  url={http://ilps.science.uva.nl/resources/bahasa/}
+  url={https://web.archive.org/web/20201030140022/https://ilps.science.uva.nl/resources/bahasa/}
 }
 ```
 
