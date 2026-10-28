@@ -1,5 +1,7 @@
 # Indonesian LLM Datasets
 
+[![Link check](https://github.com/h0c0de/indonesian-llm-datasets/actions/workflows/link-check.yml/badge.svg)](https://github.com/h0c0de/indonesian-llm-datasets/actions/workflows/link-check.yml)
+
 A catalogue of Indonesian-language datasets for training and evaluating language and multimodal models: Bahasa Indonesia plus the low-resource local languages (Acehnese, Balinese, Banjarese, Buginese, Javanese, Madurese, Minangkabau, Ngaju, Sundanese, Toba Batak).
 
 Maintained derivative of [irfanfadhullah/awesome-indonesian-llm-dataset](https://github.com/irfanfadhullah/awesome-indonesian-llm-dataset). Provenance and licensing are documented in [ATTRIBUTION.md](ATTRIBUTION.md).
@@ -11,6 +13,7 @@ Maintained derivative of [irfanfadhullah/awesome-indonesian-llm-dataset](https:/
 | Dead links | 0, as of the 2026-10-28 audit |
 | Languages | Indonesian and 10 local languages |
 | Source of truth | Markdown only; nothing is generated |
+| Web version | <https://h0c0de.github.io/indonesian-llm-datasets/> |
 
 ## Link health
 
